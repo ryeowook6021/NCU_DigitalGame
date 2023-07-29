@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+canvas {
+    border-top: 2px solid black;
+    background-image: url(images/meeting_room_bg.png);
+    background-size: 50px;
+}
+
+#talkBox {
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+table {
+    color: blue;
+    font-weight: bold;
+    margin: auto;
+    border-spacing: 10px;
+    /* border: 2px solid blue; */
+}
+
+td {
+    cursor: pointer;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+
+#user_score {
+    margin-left: 300px;
+}
